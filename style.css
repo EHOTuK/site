@@ -2,6 +2,10 @@ body {
     margin: 0;
    } 
 
+a:hover {
+    color: #fe6637;
+}
+
 a {
     color: white;
     text-decoration: none
@@ -13,93 +17,184 @@ a:visited {
 }
 
 a:active {
-    color: white;
+    color: #fe6637;
     text-decoration: none
 }
 
 .header {
     background-image: url(./img/wz-111.jpg);
-    height: 900px;
+    height: 750px;
 }
 
 .top-menu{
     height: 120px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.top-menu nav{
-    float: right;
 }
 
 .logo {
     float: left;
 }
 
+.top-menu nav{
+    float: right;
+}
+
 .menu {
-    color: springgreen;
     font-size: 20px;
 }
+
 .menu li{
     padding-top: 15px;
     padding-right: 50px;
-    font-size:25px;    
-}
-
-ul {
-    margin-left: 0;
-    padding-left: 0;
-}
-
-li {
+    font-size: 25px; 
     list-style-type: none;
-    display:inline-block;
-    color: black;
+    display: inline-block;
+    color: black;   
 }
 
 .slogan {
     color: white;
-    padding-top: 15%;
     display: table; 
     margin: 0 auto; 
     text-align: center;
+    height: 610px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.25);
 }
 
-.services h1{
+.button_buy a {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #fe6637 inset, 0 0 0 0 #fe6637;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+  } 
+
+.button_buy a:hover {
+    box-shadow: 0 0 10px 0 #fe6637 inset, 0 0 10px 4px #fe6637;
+    color: #fe6637;
+  }
+
+
+.body {
+    background-color: steelblue;
+}
+.body h1{
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-}
-
-.services_image {
-    height: 100px;
-    width: 100px;
+    padding-top: 40px;
 }
 
 .services {
+    text-align: center;
+}
+.services_first_row {
+    display: flex;
+    margin: 2% 10% 5% 12%;
+}
+
+.services_second_row {
+    display: flex;
+    margin: 2% 10% 2% 12%;
+}
+
+.services_third_row {
+    display: flex;
+    margin: 2% 10% 2% 12%;
+}
+
+.cell_of_services {
+    width: 450px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.cell_of_services img {
+    width: 350px;
+    height: 350px;
+}
+
+.text_color {
+    color: #fe6637;
+    font-size: 30px;
+}
+
+.services_description p{
+    font-size: 20px;
+}
+
+.services_button a {
+    text-decoration: none;
+    outline: none;
     display: inline-block;
-    font-size: 0;
-    line-height: 0;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #fe6637;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #fe6637;
+    transition: .2s ease-in-out;
 }
 
-.first_row {
-    display: flex;
-  align-items: stretch;
+.services_button a:before {
+    content: "";
+    background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -8px;
+    left: -75px;
+    transform: skewX(-45deg);
 }
 
-.second_row {
-    display: flex;
-  align-items: stretch;
-}
+.services_button a:hover {
+    background: #fe6637;
+    color: #fff;
+  }
+  
+.services_button a:hover:before {
+    left: 150px;
+    transition: .5s ease-in-out;
+  }    
 
-.services_bottom a{
+.services_bottom a {
     color: black;
     text-decoration: none;
 }
 
-.contacts_bottom a{
-    color: black;
+.footer {
+    height: 150px;
+    background-image: url(./img/bottom_main.png);
+}
+
+.footer ul {
+    float: right;
+    padding-right: 3%;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.contacts_bottom a {
+    color: white;
     text-decoration: none;
+}
+
+.contacts_bottom img{
+    height: 25px;
+    width: 25px;
 }
