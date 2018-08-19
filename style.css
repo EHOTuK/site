@@ -56,7 +56,7 @@ a:active {
 }
 
 .slogan {
-    color: white;
+    color: #fe6637;
     display: table; 
     margin: 0 auto; 
     text-align: center;
@@ -65,7 +65,11 @@ a:active {
     background: rgba(0, 0, 0, 0.25);
 }
 
-.button_buy a {
+
+.slogan img {
+    margin-top: 7%;
+}
+.slogan a {
     text-decoration: none;
     outline: none;
     display: inline-block;
@@ -80,14 +84,19 @@ a:active {
     transition: .15s ease-in-out;
   } 
 
-.button_buy a:hover {
+.slogan a:hover {
     box-shadow: 0 0 10px 0 #fe6637 inset, 0 0 10px 4px #fe6637;
-    color: #fe6637;
+    color: white;
   }
 
 
 .body {
-    background-color: steelblue;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-image: url(./img/back.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .body h1{
     text-align: center;
@@ -121,13 +130,24 @@ a:active {
 }
 
 .cell_of_services img {
-    width: 350px;
     height: 350px;
+}
+
+.services_image_small {
+    height: 350px;
+}
+
+.services_image_small img{
+    height: 200px;
+    padding: 20%
+}
+
+.cell_of_services {
+    font-size: 22px;
 }
 
 .text_color {
     color: #fe6637;
-    font-size: 30px;
 }
 
 .services_description p{
