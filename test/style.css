@@ -17,7 +17,6 @@ body {
     padding: 0;
     background: red /*url('https://media.tenor.com/images/9f005edb649e847cc9250fbce91d4b23/tenor.gif') center center no-repeat*/;
     font-size: 5em;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
