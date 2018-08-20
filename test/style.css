@@ -1,18 +1,24 @@
 body {
     width: 960px;
+    margin: 0 auto;
 }
 
 .all {
     display: flex;
     flex-direction: row;
-
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .services {
     width: 30%;
-    justify-content: space-between;
     height: 350px;
-    margin: 1px;
+    margin: 20px 0;
     padding: 0;
-    background-color: red;
+    background: red /*url('https://media.tenor.com/images/9f005edb649e847cc9250fbce91d4b23/tenor.gif') center center no-repeat*/;
+    font-size: 5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
