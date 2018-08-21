@@ -12,7 +12,7 @@ a:hover {
 }
 
 .header {
-    background-image: url(./img/services/background_header.jpg);
+    background-image: url(./img/background_header.jpg);
     height: 800px;
 }
 
@@ -84,22 +84,22 @@ nav {
     letter-spacing: 2px;
     color: white;
     transition: .15s ease-in-out;
-  } 
+} 
 
 .slogan a:hover {
     box-shadow: 0 0 10px 0 #fe6637 inset, 0 0 10px 4px #fe6637;
     color: white;
   }
 
-
 .body {
     padding-top: 1px;
     padding-bottom: 1px;
-    background-image: url(./img/back.jpg);
+    background-image: url(../../img/back.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .body h1{
     text-align: center;
     text-transform: uppercase;
@@ -118,7 +118,6 @@ nav {
 .cell_of_services {
     width: 30%;
     text-align: center;
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
@@ -128,7 +127,7 @@ nav {
     max-width: 350px;
 }
 
-.services_image_small {
+.services_image_small { 
     height: 350px;
     display: flex;
     justify-content: center;
@@ -180,12 +179,12 @@ nav {
 .services_button a:hover {
     background: #fe6637;
     color: #fff;
-  }
+}
   
 .services_button a:hover:before {
     left: 150px;
     transition: .5s ease-in-out;
-  }    
+}    
 
 .services_bottom a {
     color: black;
@@ -194,7 +193,7 @@ nav {
 
 .footer {
     height: 100px;
-    background-image: url(./img/services/bottom_main.png);
+    background-image: url(./img/bottom.png);
     
 }
 
@@ -215,7 +214,6 @@ nav {
 }
 
 .dark {
-    width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.45);
 }
