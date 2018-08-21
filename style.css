@@ -11,26 +11,16 @@ a:hover {
     color: #fe6637;
 }
 
-a:visited {
-    color: white;
-    text-decoration: none
-}
-
-a:active {
-    color: #fe6637;
-    text-decoration: none
-}
-
 .header {
-    background-image: url(./img/wz-111.jpg);
+    background-image: url(./img/services/background_header.jpg);
     height: 800px;
 }
 
 .top-menu{
     height: 120px;
     background: rgba(0, 0, 0, 0.8);
-    
-    
+    position:fixed;
+    width:100%;    
 }
 
 .top-menu img{
@@ -77,7 +67,7 @@ nav {
     align-items: center;
     color: white; 
     margin: 0 auto; 
-    height: 680px;
+    height: 100%;
     background: rgba(0, 0, 0, 0.25);
 }
 
@@ -135,7 +125,7 @@ nav {
 }
 
 .cell_of_services img {
-    height: 350px;
+    max-width: 350px;
 }
 
 .services_image_small {
@@ -146,7 +136,7 @@ nav {
 }
 
 .services_image_small img{
-    height: 200px;
+     max-width: 200px;
 }
 
 .cell_of_services {
@@ -204,14 +194,14 @@ nav {
 
 .footer {
     height: 100px;
-    background-image: url(./img/bottom_main.png);
+    background-image: url(./img/services/bottom_main.png);
     
 }
 
 .contacts_bottom {
     padding-right: 25px; 
     float: right;
-    width: 40%;
+    width: 50%;
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -237,6 +227,5 @@ nav {
 }
 
 .contacts_bottom img{
-    height: 35px;
     width: 35px;
 }
