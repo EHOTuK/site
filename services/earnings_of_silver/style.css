@@ -128,7 +128,7 @@ nav {
     text-align: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 65px;
 }
 
 .cell_of_services img {
@@ -141,28 +141,21 @@ nav {
     font-size: 20px;
 }
 
-.color_1 {
-    color: #D93DF9;
+.price {
+    color: #fe6637;
     font-size: 30px;
-}
-
-.color_2 {
-    color: #3BC8E0;
-    font-size: 30px;
-}
-
-.description_color_1 {
-    color: #D93DF9;
-    font-size: 21px;
-}
-
-.description_color_2 {
-    color: #3BC8E0;
-    font-size: 21px;
 }
 
 .service_description {
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.service_description span {
+    line-height: 1.5;
+}
+
+.description_color {
+    color: #D93DF9;
 }
 
 .services_button {
@@ -220,12 +213,16 @@ nav {
 
 .demands_and_works li {
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     list-style: square;
 }
 
 .demands {
     width: 30%;
+}
+
+.demands h2 {
+    margin-bottom: 30px;
 }
 
 .works img {

@@ -123,13 +123,21 @@ nav {
 }
 
 .cell_of_services img {
-    max-width: 200px;
+    max-width: 350px;
 }
 
-.recommended {
+.indicators {
     width: 100%;
     text-align: center;
     font-size: 20px;
+}
+
+.color_1 {
+    color: #3BC8E0;
+}
+
+.color_2 {
+    color: #D93DF9;
 }
 
 .text_color {
@@ -137,7 +145,7 @@ nav {
 }
 
 .services_image {
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 
@@ -147,14 +155,6 @@ nav {
     padding-top: 25px;
     font-size: 25px;
     font-weight: 600;
-}
-
-.description_color_1 {
-    color: #3BC8E0;
-}
-
-.description_color_2 {
-    color: #D93DF9;
 }
 
 .services_price {
@@ -222,12 +222,16 @@ nav {
 
 .demands_and_works li {
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     list-style: square;
 }
 
 .demands {
     width: 30%;
+}
+
+.demands h2{
+    margin-bottom: 30px;
 }
 
 .works img {
