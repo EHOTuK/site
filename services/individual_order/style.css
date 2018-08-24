@@ -116,6 +116,22 @@ nav {
     justify-content: space-around;
 }
 
+.services_info {
+        width: 30%;
+}
+    
+.services_info h2{
+        line-height: 1.5;
+        margin-bottom: 15px;
+        text-align: center;
+}
+
+.services_info li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    list-style: square;
+}
+
 .cell_of_services {
     width: 30%;
     text-align: center;
