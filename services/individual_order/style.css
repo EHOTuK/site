@@ -105,6 +105,7 @@ nav {
     text-transform: uppercase;
     font-weight: 600;
     padding: 40px;
+    line-height: 1.5;
 }
 
 .services {
@@ -146,8 +147,13 @@ nav {
     color: #fe6637;
 }
 
-.services_description p{
-    font-size: 20px;
+.service_description span {
+    line-height: 1.35;
+}
+
+.price {
+    color: #fe6637;
+    font-size: 30px;
 }
 
 .services_button a {
@@ -186,9 +192,36 @@ nav {
     transition: .5s ease-in-out;
 }    
 
-.services_bottom a {
-    color: black;
-    text-decoration: none;
+.demands_and_works {
+    width: 100%;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.demands_and_works h2 {
+    text-align: center;
+}
+
+.demands_and_works li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    list-style: square;
+}
+
+.demands {
+    width: 30%;
+}
+
+.demands h2{
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.works img {
+    max-width: 500px;
 }
 
 .footer {
