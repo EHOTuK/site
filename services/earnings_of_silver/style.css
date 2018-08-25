@@ -34,7 +34,7 @@ a:hover {
 .logo {
     float: left;
     height: 100%;
-    width: 10%;
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,13 +241,12 @@ nav {
 .footer {
     height: 100px;
     background-image: url(./img/bottom.png);
-    
 }
 
 .contacts_bottom {
     padding-right: 25px; 
     float: right;
-    width: 50%;
+    width: 35%;
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -255,6 +254,7 @@ nav {
 }
 
 .contact_item {
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,12 +265,7 @@ nav {
     background: rgba(0, 0, 0, 0.45);
 }
 
-.contacts_bottom a {
-    color: white;
-    text-decoration: none;
-
-}
-
 .contacts_bottom img{
     width: 35px;
+    padding-right: 10px;
 }
