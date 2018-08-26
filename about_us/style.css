@@ -123,14 +123,26 @@ nav {
 }
 
 .badge {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    border-radius: 50%; /* may require vendor prefixes */
-    background: white;
-  }
+    border-radius: 50%;
+    border: 7px solid #D93DF9;
+}
+
+.result {
+    font-size: 50px;
+    color: white;
+}
+
+.name {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
 
 .info {
     height: 700px;
@@ -141,7 +153,7 @@ nav {
 }
 
 .team_indicators {
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -152,14 +164,16 @@ nav {
 .text_u {
     width: 100%;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
+    color: white;
 }
 
 .text_l {
     width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 50px;
+    color: white;
 }
 
 .footer {
