@@ -94,7 +94,7 @@ nav {
 .body {
     padding-top: 1px;
     padding-bottom: 1px;
-    background-image: url(../../img/back.jpg);
+    background-image: url(../img/back.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,84 +104,63 @@ nav {
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    padding: 40px;
-}
-
-.services {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.cell_of_services {
-    width: 30%;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 150px;
-    font-size: 22px;
-}
-
-.cell_of_services img {
-    max-width: 350px;
-}
-
-.services_image_small { 
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.services_image_small img{
-     max-width: 200px;
+    padding: 40px 0px 20px 0px;
 }
 
 .text_color {
     color: #fe6637;
 }
 
-.services_description p{
-    font-size: 20px;
+.about_team {
+    width: 55%;
+    margin-left: 22.5%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
-.services_button a {
-    text-decoration: none;
-    outline: none;
-    display: inline-block;
-    padding: 10px 30px;
-    margin: 10px 20px;
-    position: relative;
-    overflow: hidden;
-    border: 3px solid #fe6637;
-    border-radius: 8px;
-    font-family: 'Montserrat', sans-serif; 
-    color: #fe6637;
-    transition: .2s ease-in-out;
+.badge {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%; /* may require vendor prefixes */
+    background: white;
+  }
+
+.info {
+    height: 700px;
+    background-image: url(./img/about_team.jpg);
+    display: flex;
+    justify-content: center ;
+    align-items: center;
 }
 
-.services_button a:before {
-    content: "";
-    background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    top: -8px;
-    left: -75px;
-    transform: skewX(-45deg);
+.team_indicators {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.services_button a:hover {
-    background: #fe6637;
-    color: #fff;
+.text_u {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
 }
-  
-.services_button a:hover:before {
-    left: 150px;
-    transition: .5s ease-in-out;
-}    
+
+.text_l {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
 
 .footer {
     height: 100px;
