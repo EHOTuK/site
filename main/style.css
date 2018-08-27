@@ -122,6 +122,7 @@ nav {
 .cell_of_duties {
     width: 30%;
     text-align: center;
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
@@ -135,9 +136,9 @@ nav {
 .duties_image {
     height: 175px;
     width: 175px;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     border: 7px solid #fe6637;
 }
