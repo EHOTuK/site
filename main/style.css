@@ -111,7 +111,7 @@ nav {
     color: #fe6637;
 }
 
-.all {
+.duties {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -119,50 +119,31 @@ nav {
     justify-content: space-around;
 }
 
-.boxes {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.cell_of_box {
-    width: 50%;
+.cell_of_duties {
+    width: 30%;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 150px;
     font-size: 22px;
-    display: flex;
-    justify-content: center;
-
 }
 
-.imag {
-    width: 100%;
+.cell_of_duties img {
+    max-width: 120px;
 }
 
-.image {
-    height: 125px;
-    width: 125px;
+.duties_image {
+    height: 175px;
+    width: 175px;
     display: table-cell;
+    text-align: center;
     vertical-align: middle;
-    border-radius: 50%; 
+    border-radius: 50%;
     border: 7px solid #fe6637;
 }
 
-.image img{
-    max-width: 78px;
-}
-
-.description {
-    width: 100%;
-    text-align: center;
-    font-size: 21px;
-}
-
-.description span{
-    text-align: center;
-    font-size: 21px;
+.duties_description p{
+    font-size: 20px;
 }
 
 .footer {
